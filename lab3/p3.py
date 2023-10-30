@@ -10,14 +10,6 @@ def compare_dicts(dict1, dict2):
             if not compare_dicts(dict1[key], dict2[key]):
                 return False
 
-    elif isinstance(dict1, (list, set, tuple)):
-        if len(dict1) != len(dict2):
-            return False
-
-        for item1, item2 in zip(dict1, dict2):
-            if not compare_dicts(item1, item2):
-                return False
-
     else:
         if dict1 != dict2:
             return False
