@@ -27,9 +27,9 @@ def main():
     print("List a:", list_a)
     print("List b:", list_b)
     print("Intersection:", result[0])
-    # print("Union:", result[1])
-    # print("A - B:", result[2])
-    # print("B - A:", result[3])
+    print("Union:", result[1])
+    print("A - B:", result[2])
+    print("B - A:", result[3])
 
 
 if __name__ == "__main__":
