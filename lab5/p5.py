@@ -51,8 +51,8 @@ class Fish(Animal):
 
 
 def main():
-    lion = Mammal("Lion", "Grasslands", "Golden")
-    eagle = Bird("Eagle", "Mountains", 2.5)
+    lion = Mammal("Arctic Fox", "Tundra", "Golden")
+    eagle = Bird("Bald Eagle", "Mountains", 2.5)
     shark = Fish("Shark", "Oceans", "Gray")
 
     print(lion.move())

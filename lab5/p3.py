@@ -43,9 +43,9 @@ class Truck(Vehicle):
 
 
 def main():
-    car = Car("Toyota", "Camry", 2020)
-    motorcycle = Motorcycle("Harley-Davidson", "Sportster", 2021)
-    truck = Truck("Ford", "F-150", 2022, 10000)
+    car = Car("Tesla", "Model 3", 2023)
+    motorcycle = Motorcycle("Kawasaki", "Ninja 650", 2023)
+    truck = Truck("Jeep", "Gladiator", 2023, 10000)
 
     print(car.display_info())
     print(car.mileage(300, 10))

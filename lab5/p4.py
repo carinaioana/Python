@@ -39,9 +39,9 @@ class Salesperson(Employee):
 
 
 def main():
-    manager = Manager("John Doe", 80000, "Marketing")
-    engineer = Engineer("Jane Smith", 70000, "Python")
-    salesperson = Salesperson("Bob Johnson", 60000, 100000)
+    manager = Manager("Carina Sirbu", 80000, "Marketing")
+    engineer = Engineer("Alex Smith", 70000, "Python")
+    salesperson = Salesperson("Mihaela Carp", 60000, 100000)
 
     print(manager.display_info())
     print(manager.manage_team())
